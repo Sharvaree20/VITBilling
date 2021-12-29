@@ -20,7 +20,7 @@ From the list, select the virtual environment in your project folder that starts
 Run Terminal: Create New Terminal (Ctrl+Shift+`) from the Command Palette, which creates a terminal and automatically activates the virtual environment by running its activation script.
 
 This should show 
-=================================================================================
+
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
 
@@ -28,7 +28,8 @@ Try the new cross-platform PowerShell https://aka.ms/pscore6
 
 PS C:\Users\prashant\django> & c:/Users/prashant/django/.venv/Scripts/Activate.ps1
 (.venv) PS C:\Users\prashant\django> 
-=================================================================================
+
+
 
 PS C:\Users\prashant\django> & c:/Users/prashant/django/.venv/Scripts/Activate.ps1
 (.venv) PS C:\Users\prashant\django> python -m pip install --upgrade pip
@@ -41,7 +42,8 @@ Installing collected packages: pip
     Uninstalling pip-21.2.4:
       Successfully uninstalled pip-21.2.4
 Successfully installed pip-21.3.1
-==================================================================================
+
+
 
 (.venv) PS C:\Users\prashant\django> python -m pip install django
 Collecting django
@@ -54,7 +56,8 @@ Collecting tzdata
   Using cached tzdata-2021.5-py2.py3-none-any.whl (339 kB)
 Installing collected packages: tzdata, sqlparse, asgiref, django
 Successfully installed asgiref-3.4.1 django-4.0 sqlparse-0.4.2 tzdata-2021.5
-===================================================================================
+
+
 
 pull the code from https://github.com/Sharvaree20/VITBilling.git
 pip install django-utils-six # if utils six isnt installed
